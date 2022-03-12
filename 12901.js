@@ -5,6 +5,7 @@ function solution(a, b) {
 }
 
 // function solution(a, b) {
-//     let result = new Date(2016,a-1,b).toString().slice(0,3).toUpperCase()
-//     return result;
+//   let date = new Date(`${a}/${b}/2016`);
+
+//   return date.toDateString().slice(0,3).toUpperCase()
 // }
