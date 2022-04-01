@@ -23,7 +23,6 @@ function solution(left, right) {
 }
 console.log(solution(left, right));
 
-
 // 다른 사람의 풀이
 // function solution(left, right) {
 //     var answer = 0;
