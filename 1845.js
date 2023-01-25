@@ -6,11 +6,14 @@ function solution(nums) {
 
   const newArr = [...set];
 
-  if (Math.floor(maxSelect) > newArr.length) {
-    return newArr.length;
-  } else if (Math.floor(maxSelect) <= newArr.length) {
-    return Math.floor(maxSelect);
-  }
+  return Math.floor(maxSelect) > newArr.length
+    ? newArr.length
+    : Math.floor(maxSelect);
+  // if (Math.floor(maxSelect) > newArr.length) {
+  //   return newArr.length;
+  // } else if (Math.floor(maxSelect) <= newArr.length) {
+  //   return Math.floor(maxSelect);
+  // }
 }
 
 // 다른 풀이
